@@ -11,6 +11,10 @@
     "test-watch": "NODE_ENV=test jest --watchAll",
     "test": "NODE_ENV=test jest"
   },
+  "jest": {
+    "testEnvironment": "node"
+  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muntherabdlrahman/bearer-auth.git"
